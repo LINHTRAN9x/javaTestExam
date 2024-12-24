@@ -105,11 +105,11 @@
 <form>
   <div>
     <label for="name">Player Name</label>
-    <input type="text" id="name" placeholder="Nhập tên">
+    <input type="text" id="name" placeholder="name">
   </div>
   <div>
     <label for="email">Player Age</label>
-    <input type="email" id="email" placeholder="Nhập email">
+    <input type="email" id="email" placeholder="email">
   </div>
   <div>
     <label for="phone">Index Name</label>
@@ -123,7 +123,7 @@
   <div>
     <label for="address">Value<label>
       <br>
-      <input type="number" id="address" placeholder="Nhập địa chỉ">
+      <input type="number" id="address" placeholder="address">
   </div>
   <button type="submit">Gửi</button>
 </form>
@@ -146,8 +146,8 @@
     <td>speed</td>
     <td>90</td>
     <td class="action-buttons">
-      <button class="edit-btn">Chỉnh sửa</button>
-      <button class="delete-btn">Xóa</button>
+      <button class="edit-btn"><a href="editPlayer"></a>Edit</button>
+      <button class="delete-btn"><a href="delete"></a>Delete</button>
     </td>
   </tr>
   <tr>
@@ -157,8 +157,8 @@
     <td>speed</td>
     <td>90</td>
     <td class="action-buttons">
-      <button class="edit-btn">Chỉnh sửa</button>
-      <button class="delete-btn">Xóa</button>
+      <button class="edit-btn"><a href="editPlayer"></a>Edit</button>
+      <button class="delete-btn"><a href="delete"></a>Delete</button>
     </td>
   </tr>
 
